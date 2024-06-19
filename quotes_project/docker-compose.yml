@@ -5,9 +5,9 @@ services:
     image: postgres:latest
     container_name: noteapp-postgres
     environment:
-      POSTGRES_DB: postgres
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 567234
+      POSTGRES_DB: my_data
+      POSTGRES_USER: my_data
+      POSTGRES_PASSWORD: my_data
     ports:
       - "5432:5432"
     volumes:
